@@ -2,11 +2,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.lenis0012.bukkit</groupId>
-    <artifactId>marriage2</artifactId>
+    <groupId>es.minehit.marriage</groupId>
+    <artifactId>hit-marriage</artifactId>
     <version>2.3.2-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>Marriage</name>
+    <name>hit-marriage</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

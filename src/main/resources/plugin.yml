@@ -1,17 +1,17 @@
-name: ${project.name}
+name: hit-marriage
 version: ${project.version}
-main: com.lenis0012.bukkit.marriage2.internal.MarriagePlugin
-author: lenis0012
-description: A plugin wich provides the function to start a relationship in minecraft.
-website: https://www.spigotmc.org/resources/marriage-reloaded-1-15-1-8.18998/
+main: es.minehit.marriage.internal.MarriagePlugin
+authors:
+  - lenis0012
+  - biiee3l
 softdepend: [Vault, PlotSquared]
-api-version: '1.13'
+api-version: '1.21'
 manifest-url: ${updater.manifestUrl}
 commands:
   marry:
-    description: Marriage main command.
+    description: Comando principak
     usage: /marry <args>
 permissions:
   marry.default:
-    description: Allows access to marriage player commands
+    description: Permite usar los comandos básicos
     default: true
